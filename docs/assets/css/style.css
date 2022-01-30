@@ -1,0 +1,148 @@
+html{
+    padding-bottom: 25px;
+}
+
+header {
+  background-color: #1F2833;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #66FCF1;
+}
+div.a {
+  font-size: 150px;
+  text-align: center;
+  color: #66FCF1;
+  background-color: #1F2833;
+}
+body {
+ background-color: #1F2833;
+ font-size: 16px;
+}
+
+#mySidenav a {
+  position: fixed;
+  left: -190px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 250px;
+  text-decoration: none;
+  text-align: right;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 20px;
+  background-color: #70D1D0;
+}
+#groupprocesses {
+  top: 80px;
+  background-color: #B2DFDB; 
+}
+#careerplans {
+  top: 140px;
+  background-color: #80CBC4; 
+}
+#tools {
+  top: 200px;
+  background-color: #4DB6AC 
+}
+#industrydata {
+  top: 260px;
+  background-color: #26A69A 
+}
+#itwork {
+  top: 320px;
+  background-color: #009688 
+}
+#ittechnologies {
+  top: 380px;
+  background-color: #00897B
+}
+#projectideas {
+  top: 440px;
+  background-color: #00796B 
+}
+#bibliography {
+  top: 500px;
+  background-color: #00695C 
+}
+#groupreflection {
+  top: 560px;
+  background-color: #005A4D
+}
+.dropbtn {
+  background-color: #1F2833;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  text-align: right;
+  font-size: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: top 0.3s;
+  }
+
+.dropdown {
+  top: 53px;
+  right: 250px;
+  position: fixed;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #1F2833;
+  min-width: 250px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #00897B }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: fixed;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #1F2833;
+   position: fixed;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
