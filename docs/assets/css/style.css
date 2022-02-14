@@ -121,22 +121,4 @@ body {
     width: 100%;
     text-align: left;
   }
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
 
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
