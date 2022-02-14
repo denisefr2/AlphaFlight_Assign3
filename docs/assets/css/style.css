@@ -20,21 +20,6 @@ body {
  font-size: 16px;
 }
 
-#mySidenav a {
-  position: fixed;
-  left: -190px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 250px;
-  text-decoration: none;
-  text-align: right;
-  font-size: 20px;
-  color: white;
-  border-radius: 0 5px 5px 0;
-}
-
-body {margin:0;font-family:Arial}
-
 .topnav {
   overflow: hidden;
   background-color: #00897B;
