@@ -1,0 +1,96 @@
+body{
+	margin: 10px 205px !important;
+	color: #66B2B2 !important;
+}
+.grid-container {
+  display: grid !important;
+  grid-row-gap: 50px !important;
+  grid-template-columns: auto auto auto !important;
+  background-color: #66B2B2 !important;
+  padding: 10px !important;
+}
+
+.grid-item {
+  background-color: #1A2227 !important;
+  border: 1px solid rgba(0, 0, 0, 0.8) !important;
+  padding: 50px !important;
+  font-size: 20px !important; 
+  text-align: left !important; 
+  color: #66B2B2 !important; 
+}
+
+div.gallery {
+  margin: 5px !important; 
+  border: 1px solid #ccc !important;
+  float: left !important;
+  width: 600px !important;
+}
+
+div.gallery:hover {
+  border: 1px solid #777 !important;
+}
+
+div.gallery img {
+  width: 100% !important;
+  height: auto !important;
+}
+img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.p1 {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.tools-columns {
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;
+	justify-content: space-around;
+}
+
+.tools-column {
+	text-align: center;
+}
+
+.grid-container {
+  display: grid !important;
+  grid-template-columns: 1fr 2fr 2fr!important;
+  grid-gap: 5px !important;
+  background-color: #1A2227 !important;
+  padding: 5px !important;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 14px !important;
+  background-color: #66B2B2 !important;
+  color: #1A2227 !important;
+  padding: 5px 15px 5px 15px;
+}
+
+.item1 {
+  grid-column: 1 / 4;
+  text-align: center;
+}
+
+.item3 {
+  text-align: center;
+}
+
+.item4 {
+  text-align: center;
+}
+
+.item5 {
+  text-align: center;
+}
+
+.item8 {
+  text-align: center;
+}
+
+.item11 {
+  text-align: center;
+}
