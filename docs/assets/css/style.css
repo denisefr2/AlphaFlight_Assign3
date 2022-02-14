@@ -33,100 +33,109 @@ body {
   border-radius: 0 5px 5px 0;
 }
 
-#mySidenav a:hover {
-  left: 0;
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #00897B;
 }
 
-#home {
-  top: 20px;
-  background-color: #70D1D0;
-}
-#groupprocesses {
-  top: 80px;
-  background-color: #B2DFDB; 
-}
-#careerplans {
-  top: 140px;
-  background-color: #80CBC4; 
-}
-#tools {
-  top: 200px;
-  background-color: #4DB6AC 
-}
-#industrydata {
-  top: 260px;
-  background-color: #26A69A 
-}
-#itwork {
-  top: 320px;
-  background-color: #009688 
-}
-#ittechnologies {
-  top: 380px;
-  background-color: #00897B
-}
-#projectideas {
-  top: 440px;
-  background-color: #00796B 
-}
-#bibliography {
-  top: 500px;
-  background-color: #00695C 
-}
-#groupreflection {
-  top: 560px;
-  background-color: #005A4D
-}
-.dropbtn {
-  background-color: #1F2833;
-  position: fixed;
-  top: 0;
-  right: 0;
-  padding: 15px;
-  width: 100px;
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  text-align: right;
-  font-size: 20px;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #005A4D;
   color: white;
-  border: none;
-  cursor: pointer;
-  transition: top 0.3s;
-  }
+}
+
+.topnav .icon {
+  display: none;
+}
 
 .dropdown {
-  top: 53px;
-  right: 250px;
-  position: fixed;
-  display: inline-block;
-  
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
 }
 
 .dropdown-content {
   display: none;
-  position: fixed;
-  background-color: #1F2833;
-  min-width: 250px;
-  border-radius: 5px 5px 5px 5px;
+  position: absolute;
+  background-color: #005A4D;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .dropdown-content a {
+  float: none;
   color: white;
   padding: 12px 16px;
   text-decoration: none;
-  text-align: right;
   display: block;
+  text-align: left;
 }
-.dropdown-content a:hover {background-color: #00897B }
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #00796B;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
-  position: fixed;
 }
 
-.dropdown:hover .dropbtn {
-  background-color: #1F2833;
-   position: fixed;
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
 }
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
