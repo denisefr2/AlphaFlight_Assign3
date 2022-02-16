@@ -1,2 +1,2 @@
-# RMIT ASSIGNMENT 3 GROUP 14
+# RMIT Intro to IT Assignment 3 (Group 14)
 Brought to you by Alpha Flight
