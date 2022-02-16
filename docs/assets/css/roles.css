@@ -49,32 +49,12 @@ body {
 	padding: 20px;
 }
 
-.item15 {
-	grid-column: 2 / 5;
+.item6 {
+	text-align: center;
+	padding: 20px;
 }
 
-.item17 {
-	grid-column: 2 / 5;
-}
-
-
-.item19 {
-	grid-column: 2 / 5;
-}
-
-.item20 {
-	grid-column: 1 / 5;
-    text-align: center;
-}
-
-.item22 {
-	grid-column: 2 / 5;
-}
-
-.item24 {
-	grid-column: 2 / 5;
-}
-
-.item26 {
-	grid-column: 2 / 5;
+.item7 {
+	text-align: center;
+	padding: 20px;
 }
