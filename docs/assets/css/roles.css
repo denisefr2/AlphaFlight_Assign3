@@ -33,31 +33,26 @@ body {
   grid-column: 1 / 5;
   text-align: center;
 }
-.item2 {
-	text-align: center;
-	padding: 20px;
-}
-.item3 {
+
+.team {
 	text-align: center;
 	padding: 20px;
 }
 
-.item4 {
+.name {
 	text-align: center;
-	padding: 20px;
 }
 
-.item5 {
+h2{
+	font-size: 20px;
 	text-align: center;
-	padding: 20px;
 }
 
-.item6 {
+h4{
+	font-size: 20px;
 	text-align: center;
-	padding: 20px;
 }
 
-.item7 {
+.roles{
 	text-align: center;
-	padding: 20px;
 }
