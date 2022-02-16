@@ -1,21 +1,7 @@
-body{
-	margin: 10px 205px;
-}
-.grid-container {
-  display: grid !important;
-  grid-row-gap: 50px !important;
-  grid-template-columns: 1fr 1fr 1fr !important;
-  background-color: #66B2B2 !important;
-  padding: 10px !important;
+h1 {
+  color: #66FCF1!important;
 }
 
-.grid-item {
-  background-color: #1A2227 !important;
-  border: 1px solid rgba(0, 0, 0, 0.8) !important;
-  padding: 50px !important;
-  text-align: left !important; 
-  color: #66B2B2 !important; 
-]
-.p1 {
-  font-family: "Times New Roman", Times, serif !important;
+body {
+	 margin: 10px 205px;
 }
