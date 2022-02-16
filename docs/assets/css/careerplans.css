@@ -22,19 +22,19 @@ body {
 }
 
 .center {
-	text-align: center;
+	text-align: center!important;
 }
 
 .long {
-  grid-column: 1 / 4;
-  text-align: center;
+  grid-column: 1 / 4!important;
+  text-align: center!important;
 }
 
 .item24 {
-	text-align: center;
+	text-align: center!important;
 }
 
 .item25 {
-	grid-column: 1 / 4;
+	grid-column: 1 / 4!important;
 }
 
