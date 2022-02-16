@@ -33,7 +33,10 @@ body {
   grid-column: 1 / 5;
   text-align: center;
 }
-
+.item2 {
+	text-align: center;
+	padding: 20px;
+}
 .item3 {
 	text-align: center;
 	padding: 20px;
