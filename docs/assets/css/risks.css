@@ -6,3 +6,47 @@ body{
 .tab{
 	text-indent:40px!important
 }
+body{
+	margin: 10px 205px !important;
+	color: #66B2B2 !important;
+}
+.grid-container {
+  display: grid !important;
+  grid-template-columns: 1fr 2fr 2fr!important;
+  grid-gap: 5px !important;
+  background-color: #1A2227 !important;
+  padding: 5px !important;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 14px !important;
+  background-color: #66B2B2 !important;
+  color: #1A2227 !important;
+  padding: 5px 15px 5px 15px;
+}
+
+.item1 {
+  grid-column: 1 / 4;
+  text-align: center;
+}
+
+.item3 {
+  text-align: center;
+}
+
+.item4 {
+  text-align: center;
+}
+
+.item5 {
+  text-align: center;
+}
+
+.item8 {
+  text-align: center;
+}
+
+.item11 {
+  text-align: center;
+}
