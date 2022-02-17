@@ -45,7 +45,7 @@ Text-align: centre;
   grid-column: 1 / 2;
   text-align: center;
 }
-.Cost {
+.cost {
   grid-column: 3/ 4
   text-align: center;
 }
