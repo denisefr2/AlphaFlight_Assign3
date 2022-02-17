@@ -26,9 +26,11 @@ body{
   text-align: center;
 }
 .software {
+  grid-column: 1 / 1;
   text-align: center;
 }
 .licensing {
+  grid-column: 1 / 1;
   text-align: center;
 }
 h2{
