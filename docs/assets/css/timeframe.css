@@ -8,7 +8,7 @@ body{
 }
 .grid-container {
   display: grid !important;
-  grid-template-columns: 1fr 1fr 1fr 1fr!important;
+  grid-template-columns: auto auto auto auto!important;
   grid-gap: 5px !important;
   background-color: #1A2227 !important;
   padding: 5px !important;
