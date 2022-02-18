@@ -1,4 +1,4 @@
-body{
+	body{
 	margin: 10px 205px!important;
 	color: #66B2B2!important
 }
@@ -8,7 +8,7 @@ body{
 }
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 1fr 2fr 2fr 2fr;
   gap: 5px;
   background-color: #1A2227;
   padding: 5px;
@@ -19,61 +19,21 @@ body{
   font-size: 14px;
   background-color: #66B2B2;
   color: #1A2227;
-  text-align: center;
-  padding: 5px 0;
+  padding: 5px 10px;
 }
 .item1 {
-  grid-column: 1 / 5;
+	grid-column: 1 / 5;
     text-align: center;
 }
-.item10 {
-  grid-column: 1 / 2;
-    text-align: center;
+
+.week {
+	text-align: center;
 }
-.item11 {
-  grid-column: 3 / 5;
+
+.subheader {
+	text-align: center;
 }
-.item17 {
-  grid-column: 3 / 5;
-}
-.item23 {
-  grid-column: 3 / 5;
-}
-.item29 {
-  grid-column: 3 / 5;
-}
-.item35 {
-  grid-column: 1 / 5;
-    text-align: center;
-}
-.item41 {
-  grid-column: 3 / 5;
-}
-.item47 {
-  grid-column: 3 / 5;
-}
-.item53 {
-  grid-column: 3 / 5;
-}
-.item59 {
-  grid-column: 3 / 5;
-}
-.item65 {
-  grid-column: 3 / 5;
-}
-.item71 {
-  grid-column: 3 / 5;
-}
-.item77 {
-  grid-column: 1 / 5;
-    text-align: center;
-}
-.item83 {
-  grid-column: 3 / 5;
-}
-.item89 {
-  grid-column: 3 / 5;
-}
-.item95 {
-  grid-column: 3 / 5;
+
+.milestone {
+	grid-column: 2 / 5;
 }
