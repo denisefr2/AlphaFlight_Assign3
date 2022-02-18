@@ -24,6 +24,7 @@ body{
 }
 .item1 {
   grid-column: 1 / 5;
+    text-align: center;
 }
 .item11 {
   grid-column: 2 / 5;
