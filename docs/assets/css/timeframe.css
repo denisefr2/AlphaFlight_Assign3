@@ -26,6 +26,10 @@ body{
   grid-column: 1 / 5;
     text-align: center;
 }
+.item10 {
+  grid-column: 1 / 2;
+    text-align: center;
+}
 .item11 {
   grid-column: 3 / 5;
 }
