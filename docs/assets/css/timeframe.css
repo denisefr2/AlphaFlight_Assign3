@@ -21,13 +21,9 @@ body{
   color: #1A2227 !important;
   padding: 5px 15px 5px 15px;
 }
-}
 .item1 {
-  grid-column: 1 / 5!important;
-  text-align: center!important;
-}
+  grid-column: 1 / 5;
 }
 .item11 {
-  grid-column: 2 / 5!important;
-  text-align: center!important;
+  grid-column: 2 / 5;
 }
